@@ -1,0 +1,5 @@
+# Atualizado para o Node 22 (exigência do TanStack Start)
+FROM node:22-alpine
+
+WORKDIR /app
+EXPOSE 5173
