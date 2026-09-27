@@ -78,15 +78,6 @@ function Index() {
             </a>
           </div>
         </div>
-        <div className="relative mx-auto max-w-7xl px-6">
-          <div className="animate-rise glass rounded-2xl p-3" style={{ animationDelay: "320ms" }}>
-            <div className="aspect-[21/9] overflow-hidden rounded-xl">
-              <div ref={par} className="h-full w-full will-change-transform bg-ink">
-                <img src={hero} alt={t({ pt: "Infraestrutura de tecnologia de ponta e código", en: "State-of-the-art tech infrastructure and code" })} width={1920} height={800} className="h-full w-full object-cover opacity-80 mix-blend-luminosity" />
-              </div>
-            </div>
-          </div>
-        </div>
       </header>
 
       <div className="mt-20 overflow-hidden border-y border-edge/50 bg-panel/30 py-5">
